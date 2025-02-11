@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilhante Artesanatos em Paletes</title>
+    <link rel="stylesheet" href="style.css">
+    <div class="filtros">
+        <button onclick="filtrarProdutos('mesa')">Mesas</button>
+        <button onclick="filtrarProdutos('cama')">Camas</button>
+        <button onclick="filtrarProdutos('sofa')">Sofas</button>
+        <button onclick="filtrarProdutos('decoracao')">Decoração</button>
+        <button onclick="filtrarProdutos('jardim')">Jardim</button>
+        <button onclick="filtrarProdutos('todos')">Todos</button>
+    </div>
+</head>
+
+<body>
+    <header>
+        <h1>Brilhante Artesanatos em Paletes</h1>
+    </header>
+
+    <section class="produtos">
+        <div class="produto" data-categoria="jardim">
+            <img src="img/produtos/jardim-planta-suspensa1.jpeg" alt="">
+            <p class="descricao">Jardim Suspenso</p>
+            <p class="valor">R$ 80,00</p>
+        </div>
+        <div class="produto" data-categoria="sofa">
+            <img src="img/produtos/sofa-carretel1.jpeg" alt="">
+            <p class="descricao">Sofá de Carretel</p>
+            <p class="valor">R$ 150,00</p>
+        </div>
+        <div class="produto" data-categoria="cama">
+            <img src="img/produtos/cama-cama-palete1.jpeg" alt="">
+            <p class="descricao">Sofá de Carretel</p>
+            <p class="valor">R$ 250,00</p>
+        </div>
+        <div class="produto" data-categoria="jardim">
+            <img src="img/produtos/jardim-armario-plantas1.jpeg" alt="">
+            <p class="descricao">Armário 3 Prateleiras</p>
+            <p class="valor">R$ 250,00</p>
+        </div>
+        <div class="produto" data-categoria="sofa">
+            <img src="img/produtos/sofa-palete1.jpeg" alt="">
+            <p class="descricao">Sofá 3 Lugares</p>
+            <p class="valor">R$ 800,00</p>
+        </div>
+        <div class="produto" data-categoria="decoracao">
+            <img src="img/produtos/decoracao-porta-coisas1.jpeg" alt="">
+            <p class="descricao">Ítem de decoração</p>
+            <p class="valor">R$ 100,00</p>
+        </div>
+        <div class="produto" data-categoria="jardim">
+            <img src="img/produtos/jardim-planta-suspensa2.jpeg" alt="">
+            <p class="descricao">Jardim Suspenso</p>
+            <p class="valor">R$ 100,00/unid</p>
+        </div>
+        <div class="produto" data-categoria="mesa">
+            <img src="img/produtos/mesa-carretel1.webp" alt="">
+            <p class="descricao">Jardim Suspenso</p>
+            <p class="valor">R$ 100,00/unid</p>
+        </div>
+    </section>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <a href="https://wa.me/5585994060307" class="whatsapp-btn" target="_blank">
+        <img src="img/whatsapp-logo.png" alt="WhatsApp">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
